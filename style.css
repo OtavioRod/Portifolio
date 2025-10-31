@@ -16,7 +16,6 @@ body {
   line-height: 1.6;
 }
 
-/* ===== HEADER ===== */
 header {
   background: linear-gradient(135deg, #00b4d8, #00b37e);
   color: white;
@@ -39,7 +38,6 @@ header p {
   opacity: 0.9;
 }
 
-/* ===== CONTEÚDO PRINCIPAL ===== */
 main {
   padding: 2rem 1rem;
 }
@@ -54,10 +52,6 @@ section {
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
-section:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
 
 h2 {
   color: var(--primary);
@@ -67,7 +61,6 @@ h2 {
   font-size: 1.4rem;
 }
 
-/* ===== PROJETOS ===== */
 .projeto {
   background: #f9fbff;
   padding: 1.2rem 1.5rem;
@@ -76,10 +69,7 @@ h2 {
   transition: all var(--transition);
 }
 
-.projeto:hover {
-  background: #eefcf8;
-  transform: scale(1.01);
-}
+
 
 .projeto h3 {
   margin-top: 0;
@@ -98,7 +88,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ===== CONTATO ===== */
 ul {
   list-style: none;
   padding: 0;
@@ -109,7 +98,6 @@ ul li {
   font-size: 1.05rem;
 }
 
-/* ===== RODAPÉ ===== */
 footer {
   text-align: center;
   padding: 1rem;
